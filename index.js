@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
    for(let i = 0; i < katzDeliLine.length; i++) {
      line += (i + 1) + ". " + katzDeliLine[i] + ", ";
    }
-   line = line.slice(0, line.length-2);
+   line = line.splice(0, line.length-2);
    return "The line is currently: " + line;
  }
 }
