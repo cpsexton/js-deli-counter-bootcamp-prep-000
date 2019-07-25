@@ -1,6 +1,6 @@
 var katzDeliLine = [];
 //var customer = "Ada";
-let line = [];
+
 
  function takeANumber(katzDeliLine, name) {
    katzDeliLine.push(name);
@@ -14,7 +14,8 @@ function nowServing(katzDeliLine) {
     return "Currently serving " + name + ".";
   }
 }
-function currentLine(katzDeliLine, line) {
+function currentLine(katzDeliLine) {
+  let line = [];
   if (katzDeliLine.length === 0) {
    return "The line is currently empty.";
  } else {
