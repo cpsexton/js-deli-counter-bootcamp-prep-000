@@ -1,5 +1,5 @@
 var katzDeliLine = [];
-//var customer = "Ada";
+
 
 
  function takeANumber(katzDeliLine, name) {
