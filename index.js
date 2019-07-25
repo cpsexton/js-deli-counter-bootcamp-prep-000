@@ -1,10 +1,10 @@
 var katzDeliLine = [];
 let ticket = 0;
+
 function takeANumber(katzDeliLine) {
-  ticket++;
+  katzDeliLine.push(++ticket);
   return "Welcome you have ticket number " + ticket + ".";
 }
-
 
 /*
  function takeANumber(katzDeliLine, name) {
@@ -12,6 +12,7 @@ function takeANumber(katzDeliLine) {
    return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.";
  }
  */
+ 
 function nowServing(katzDeliLine) {
   if(katzDeliLine.length === 0) {
     return "There is nobody waiting to be served!";
